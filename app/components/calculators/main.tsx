@@ -11,7 +11,7 @@ import {
 import CalculatorContext from "@/app/utils/context/calculator";
 import { ICalculatorLog } from "@/app/utils/interfaces/calculator";
 
-const CalculatorMain: React.FC = () => {
+const CalculatorMain = () => {
   //descructuring context properties
   const {
     input,

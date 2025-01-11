@@ -1,31 +1,31 @@
-  const CALCULATOR_CHARACTERS = [
+  const CALCULATOR_CHARACTERS: string[] = [
     "C",
     "÷",
     "×",
     "⌫",
-    7,
-    8,
-    9,
+    "7",
+    "8",
+    "9",
     "-",
-    4,
-    5,
-    6,
+    "4",
+    "5",
+    "6",
     "+",
-    1,
-    2,
-    3,
+    "1",
+    "2",
+    "3",
     "=",
-    0,
+    "4",
     ".",
     "%",
   ];
-  const ARITHMETIC_OPERATORS = [
+  const ARITHMETIC_OPERATORS: string[] = [
     "+",
     "-",
     "÷",
     "×",
   ]
-  const CALCULATOR_OPERATORS = [
+  const CALCULATOR_OPERATORS: string[] = [
     ".",
     "×",
     "⌫",

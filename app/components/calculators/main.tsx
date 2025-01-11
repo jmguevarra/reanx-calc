@@ -24,7 +24,7 @@ const CalculatorMain = () => {
 
   const [isComputed, setIsComputed] = useState<boolean>(false);
 
-  const handleClick = (value: any) => {
+  const handleClick = (value: string) => {
     const lastChar = input.charAt(input.length - 1);
 
     // no number yet and clicked operator
@@ -119,7 +119,7 @@ const CalculatorMain = () => {
         </div>
         {/* Buttons */}
         <div className="grid grid-cols-4 gap-3">
-          {CALCULATOR_CHARACTERS.map((btn) => (
+          {CALCULATOR_CHARACTERS.map((btn: string) => (
             <button
               key={btn}
               onClick={() => handleClick(btn)}

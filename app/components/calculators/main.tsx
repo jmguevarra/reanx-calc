@@ -64,7 +64,7 @@ const CalculatorMain = () => {
           return;
 
         //replace x string and divided symbol by real arithmetic characters
-        let convertedString = input.replace(/×/g, "*").replace(/÷/g, "/");
+        const convertedString = input.replace(/×/g, "*").replace(/÷/g, "/");
         const result = evaluate(convertedString);
 
         //set percistion and formating to auto
